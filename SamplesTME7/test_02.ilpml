@@ -1,0 +1,18 @@
+function f()
+(
+    print("amine ");
+    yield();
+    print("le ");
+    yield();
+    print("des ")
+);
+let x = costart f() in (
+    resume(x);
+    print("est ");
+    resume(x);
+    print("boss ");
+    resume(x);
+    print("bosses ");
+    resume(x);
+    print("!")
+)
