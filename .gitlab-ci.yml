@@ -34,3 +34,11 @@ ILP3:
   artifacts:
     reports:
       junit: report.xml
+TME7:
+  stage: tme
+  script: >
+    /home/dlp/run.sh -id TME7 -name TME7
+    com.paracamplus.ilp3.ilp3tme7.interpreter.test.InterpreterTest
+  artifacts:
+    reports:
+      junit: report.xml
